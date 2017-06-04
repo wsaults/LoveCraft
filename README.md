@@ -2,12 +2,12 @@
 A place for scripts that can speak to your loved ones.
 
 
-*** Edit the script ***
+**Edit the script**
 Right click the hp-start script and choose Open With > Script Editor
 
 ![](images/editTheScript.png?raw=true)  
 
-*** Change the defaults ***
+**Change the defaults**
 1. Change the time  
 
 This line causes the application to terminate at 6pm.  
@@ -37,7 +37,7 @@ Look for the following function
 on modifyMessage(message)
 ```
 
-*** Create the application ***
+**Create the application**
 
 Choose File > Export...
 

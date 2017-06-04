@@ -1,6 +1,12 @@
 # LoveCraft
-A place for scripts that can speak to your loved ones.
+A place for scripts that can speak to your loved ones.  
+  
+After following the steps below you'll have created an application that performs as follows:  
+1. When you run the app a terminal window appears displaying the time and text of the message to be sent. (Terminating the application before the indicated time will abandon the message.)  
+2. The message send time is randomly picked from 1-3 hours from the time that the application is started.  
+3. The application will repeat this process until 6pm or until the application is terminated. 
 
+![](images/messageExample.png?raw=true)  
 
 ## Edit the script  
 Right click the hp-start script and choose Open With > Script Editor
@@ -46,7 +52,7 @@ Choose File > Export...
 Change the File Format to "Application"  
 Choose 'Stay open after run handler"  
 
-![](images/save.png?raw=true)
+![](images/save.png?raw=true)  
 
 An "hp-start" Application will appear in the same directory.  
 You can either double click this or run it from the command line.  

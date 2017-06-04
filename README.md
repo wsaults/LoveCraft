@@ -7,6 +7,7 @@ After following the steps below you'll have created an application that performs
 3. The application will repeat this process until 6pm or until the application is terminated. 
 
 ![](images/messageExample.png?raw=true)  
+Note: If the application is ran after 6pm then it will continue to send messages until 6pm the next day.  
 
 ## Edit the script  
 Right click the hp-start script and choose Open With > Script Editor
